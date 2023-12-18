@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .content {
+        width: 100%;
+        height: 100vh;
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: #424144;
+        position: relative;
+        overflow: hidden;
+      }
+  
+      @keyframes changeBackground {
+  0% {
+    background-image: url('https://img.freepik.com/fotos-premium/delicioso-pastel-cumpleanos-multicolor-malvaviscos_170896-1337.jpg?size=626&ext=jpg&ga=GA1.2.1004531741.1700970019&semt=ais');
+  }
+  33.33% {
+    background-image: url('https://www.bettycrocker.lat/wp-content/uploads/2020/12/BClatam-recipe-pastel-arcoiris.png');
+  }
+  66.66% {
+    background-image: url('https://www.shutterstock.com/image-photo/celebration-birthday-cake-decorated-white-600nw-2311000103.jpg'); 
+  }
+  100% {
+    background-image: url('https://img.freepik.com/fotos-gratis/delicioso-pastel-de-chocolate_144627-32649.jpg?size=626&ext=jpg&ga=GA1.2.1004531741.1700970019&semt=ais'); 
+  }
+}
+
+.content:hover {
+  animation: changeBackground 10s infinite;
+}
+
+    </style>
+    <title>DELICIAS</title>
+</head>
+<body>
+
+  <nav class="navbar">
+      <div class="logo"><h1>DELICIAS</h1></div>
+      <ul class="menu">
+          <li><a href="" class="active">INICIO</a></li>
+          <li><a href="">SABORES</a></li>
+          <li><a href="">CREACIONES</a></li>
+          <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+      </ul>
+      <div class="menu-btn">
+          <i class="fa fa-bars"></i>
+      </div>
+  </nav>
+
+
+<section class="content">
+   <h1> DATE UN GUSTO</h1>
+   <p></p>
+   <button>COMPRA</button>
+</section>
+
+<h1 class="pheading">VARIEDADES</h1>
+
+   <section class="sec">
+      <div class="products">
+
+        <div class="card">
+          <div class="img">
+            <img src="https://img.freepik.com/foto-gratis/helado-blancos-forestales-pastel-crema_1203-6511.jpg?size=626&ext=jpg&ga=GA1.2.1004531741.1700970019&semt=ais" alt="">
+          </div>
+          <div class="title">GUINDA,CHOCOLATADA  CHOC-GUIN</div>
+          <div class="box">
+            <div class="price">$23,000.</div>
+            <button class="btn">Compra</button>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="img">
+            <img src="https://img.freepik.com/foto-gratis/pastel-frutas_1203-8378.jpg?size=626&ext=jpg&ga=GA1.2.1004531741.1700970019&semt=ais" alt="">
+          </div>
+          <div class="title">CREMA,MARRASQUINO  CREAM</div>
+          <div class="box">
+            <div class="price">$20.300 </div>
+            <button class="btn">Compra </button>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="img">
+            <img src="https://img.freepik.com/foto-gratis/pastel_74190-5132.jpg?size=626&ext=jpg&ga=GA1.2.1004531741.1700970019&semt=ais" alt="">
+          </div>
+          <div class="title">CHOCOLATE, CREMA - TOQUES ROJOS</div>
+          <div class="box">
+            <div class="price">$23.045 </div>
+            <button class="btn">Compra</button>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="img">
+            <img src="https://img.freepik.com/foto-gratis/donuts-deliciosos_144627-6265.jpg?size=626&ext=jpg&ga=GA1.2.1004531741.1700970019&semt=ais"alt="">
+          </div>
+          <div class="title">DONAS - TRICOLORES</div>
+          <div class="box">
+            <div class="price">UNIDADES $2.000</div>
+            <button class="btn">Compra</button>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="img">
+            <img src="https://img.freepik.com/foto-gratis/pastel-chocolate-chispitas-chocolate_144627-8998.jpg?size=626&ext=jpg&ga=GA1.2.1004531741.1700970019&semt=ais" alt="">
+          </div>
+          <div class="title">CHOCOLATE, HELADO  DELICIAS</div>
+          <div class="box">
+            <div class="price">$ 21.000 </div>
+            <button class="btn">Compra</button>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="img">
+            <img src="https://img.freepik.com/foto-gratis/pastel-helado-vainilla-fresa-parte-superior_74190-2505.jpg?size=626&ext=jpg&ga=GA1.2.1004531741.1700970019&semt=ais" alt="">
+          </div>
+          <div class="title"> FRESAS, CREMA  SUSPIRO</div>
+          <div class="box">
+            <div class="price">$23.000 </div>
+            <button class="btn">Compra </button>
+          </div>
+        </div>
+         
+      </div>
+    </section>
+
+    <div class="form-container">
+      <h2>Contacto</h2>
+      <form>
+          <input type="text" placeholder="Nombre" id="exampleInputName" required>
+          <input type="email" placeholder="Correo Electrónico" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          <textarea placeholder="¿Qué necesitas?" id="exampleTextarea" rows="4" required></textarea>
+          <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+
+    <footer>
+     <p>© <span id="currentYear"></span> Copyright </p>
+    </footer>
+ 
+
+ 
+ </body>
+ </html>   
